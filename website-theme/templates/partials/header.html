@@ -2,22 +2,3 @@
   templateType: global_partial
   label: Website header
 -->
-<header class="header position-absolute w-100 top-0 start-0 position-relative z-20 d-flex justify-content-center align-items-center">
-    <div class="header-container container-fluid w-100 d-flex justify-content-between align-items-center">
-        <a href="/">
-            <img class="header-logo img-fluid" src="{{ get_asset_url('../../images/logo.svg') }}">
-        </a>
-
-        <div>
-            <div class="btn-header pe-2  d-none d-md-inline-block">
-                {% cta "headerCTA1" label="Header CTA 1", guid="d43188b9-1370-49c6-84d4-7bb5193a4086" %}
-            </div>
-            <div class="btn-header px-2  d-none d-md-inline-block">
-                {% cta "headerCTA2" label="Header CTA 2", guid="90877d23-8241-427e-acad-4f9b111b1823" %}
-            </div>
-            <div class="btn-header ps-2  d-none d-md-inline-block">
-                {% cta "headerCTA3" label="Header CTA 3", guid="70311d42-2529-4d3b-a3e3-cf04f9cc0cb8" %}
-            </div>
-        </div>
-    </div>
-</header>
