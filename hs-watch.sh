@@ -1,1 +1,1 @@
-hs watch website-theme hubspot-boilerplate-theme
+hs watch website-theme hubspot-theme-boilerplate

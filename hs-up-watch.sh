@@ -1,1 +1,1 @@
-hs watch website-theme hubspot-boilerplate-theme --initial-upload
+hs watch website-theme hubspot-theme-boilerplate --initial-upload
