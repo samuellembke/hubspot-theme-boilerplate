@@ -1,0 +1,57 @@
+$primary: #25BBEB;
+
+$grid-breakpoints: (
+        xs: 0,
+        xsm: 320px,
+        lxsm: 361px,
+        lsm: 390px,
+        msm: 420px,
+        sm: 576px,
+        md: 768px,
+        lg: 992px,
+        xl: 1200px,
+        xxl: 1400px,
+        xxxm: 1600px,
+        xxxl: 1850px,
+        xxxxl: 1900px,
+        xxxxxl: 1920px
+);
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1040px,
+        xxl: 1141px,
+        xxxl: 1260px
+);
+$enable-negative-margins: true;
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge(
+                (
+                        0: 0,
+                        1: $spacer * .25,
+                        2: $spacer * .5,
+                        3: $spacer,
+                        4: $spacer * 1.5,
+                        5: $spacer * 3,
+                        6: $spacer * 4.5,
+                        7: $spacer * 6,
+                        8: $spacer * 7.5,
+                        9: $spacer * 9,
+                        10: $spacer * 12,
+                        11: $spacer * 13,
+                        12: $spacer * 14,
+                        13: $spacer * 15,
+                        14: $spacer * 16,
+                        15: $spacer * 17,
+                        16: $spacer * 18,
+                        17: $spacer * 19,
+                        18: $spacer * 20,
+                        19: $spacer * 21,
+                        20: $spacer * 22,
+                        21: $spacer * 23,
+                        22: $spacer * 24,
+                ),
+                $spacers
+);

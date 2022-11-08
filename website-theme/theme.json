@@ -1,0 +1,21 @@
+{
+  "label": "Hubspot Boilerplate Theme",
+  "author": {
+		"name": "Samuel Lembke",
+		"email": "sl@rebirthagency.de",
+		"url": "https://rebirthagency.de"
+	},
+  "preview_path": "./templates/home.html",
+  "screenshot_path": "./images/hubspot-theme-thumbnail.png",
+  "enable_domain_stylesheets": false,
+  "license": "./license.txt",
+  "responsive_breakpoints": [
+    {
+      "name": "mobile",
+      "mediaQuery": "@media (max-width: 576px)",
+      "previewWidth": {
+        "value": 390
+      }
+    }
+  ]
+}

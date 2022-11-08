@@ -1,0 +1,37 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: Boilerplate
+  screenshotPath: ../images/template-previews/boilerplate.png
+-->
+{{ require_css(get_asset_url('../dist/scss/boilerplate/boilerplate.css')) }}
+{% extends "./layouts/base.html" %}
+
+{% block body %}
+
+<section class="hero d-flex flex-column justify-content-center align-items-center w-100 position-relative">
+
+    <div class="container mb-5 w-100 d-flex flex-column justify-content-center align-items-center position-relative z-2">
+        <div class="hero-text text-center">
+            {% widget_block rich_text "heroText" overrideable=True, label="Hero Text", no_wrapper=false  %}
+            {% widget_attribute "html" %}
+            <h1>
+                Der smarte Weg <br>
+                zum eigenen <span style="color: #25bbeb;">Online Shop</span>
+            </h1>
+            <p>
+                Erfolgreicher online verkaufen mit den Top-Experten an deiner Seite. <br>
+                Professionell.  Effizient.  Staatlich gefördert.
+            </p>
+            {% end_widget_attribute %}
+            {% end_widget_block %}
+        </div>
+        <div class="d-flex flex-row align-items-center justify-content-center">
+            {% cta "heroCTA" label="Hero CTA", guid="aeefe4f8-9eb2-4772-8825-648882570ddc" %}
+        </div>
+    </div>
+
+</section>
+
+{{ require_js(get_asset_url('../dist/ts/boilerplate.js'), { position: 'footer', defer: false }) }}
+{% endblock body %}

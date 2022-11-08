@@ -1,0 +1,63 @@
+<!--
+  templateType: global_partial
+  label: Footer
+-->
+<footer class="footer w-100 d-flex justify-content-center align-items-stretch position-relative">
+    <img class="footer-bg img-fluid position-absolute z-bg w-100 top-0 start-0 d-sm-none" src="{{ get_asset_url('../../images/global/footer-bg-mobile.png') }}">
+    <img class="footer-bg img-fluid position-absolute z-bg w-100 top-0 start-0 d-none d-sm-block" src="{{ get_asset_url('../../images/global/footer-bg.png') }}">
+    <img class="footer-bg-overlay img-fluid position-absolute z-1 w-100 top-0 start-0" src="{{ get_asset_url('../../images/global/footer-overlay.svg') }}">
+
+    <div class="footer-container container-fluid w-100 d-flex flex-column-reverse flex-sm-column justify-content-between align-items-stretch position-relative z-2">
+        <div class="footer-line top-0 start-50 w-100 position-absolute">
+            <div class="footer-line-selected"></div>
+        </div>
+        <div class="footer-top d-flex flex-column flex-sm-row justify-content-between align-items-center">
+            <img class="img-fluid" src="{{ get_asset_url('../../images/logo.svg') }}">
+
+            <div class="footer-items d-flex flex-row align-items-center justify-content-end">
+                <!--<div class="footer-item">
+                    <a>
+                        BLOG
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a>
+                        Jobs
+                    </a>
+                </div>-->
+                <div class="footer-item">
+                    <a href="https://go.netshake.com/datenschutz" target="_blank">
+                        Datenschutz
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="https://go.netshake.com/impressum" target="_blank">
+                        Impressum
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom d-flex flex-row align-items-center justify-content-center justify-content-sm-between">
+            <div class="footer-socials d-flex flex-row align-items-center justify-content-start">
+                <a href="{% text 'footerYoutubeLink' label='Youtube Link', value='https://www.youtube.com/channel/UCY8YIA7wejHKd4FV75GrCSw', no_wrapper=True %}" target="_blank">
+                    <img class="img-fluid" src="{{ get_asset_url('../../images/global/youtube.png') }}">
+                </a>
+
+                <a href="{% text 'footerLinkedInLink' label='LínkedIn Link', value='https://www.linkedin.com/company/netshake/', no_wrapper=True %}" target="_blank">
+                    <img class="img-fluid" src="{{ get_asset_url('../../images/global/linkedin.png') }}">
+                </a>
+
+                <a href="{% text 'footerInstagramLink' label='Instagram Link', value='https://www.instagram.com/netshake/', no_wrapper=True %}" target="_blank">
+                    <img class="img-fluid" src="{{ get_asset_url('../../images/global/instagram.png') }}">
+                </a>
+            </div>
+
+            <div class="footer-btns">
+                <div>
+                    {% cta "footerCTA" label="Footer CTA", guid="aeefe4f8-9eb2-4772-8825-648882570ddc" %}
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

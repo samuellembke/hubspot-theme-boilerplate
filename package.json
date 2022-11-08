@@ -1,0 +1,22 @@
+{
+  "name": "hubspot-theme-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node esbuild.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Lembke",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.1",
+    "gsap": "npm:@gsap/shockingly@^3.10.4",
+    "jquery": "^3.6.0",
+    "swiper": "^8.4.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.15.9",
+    "esbuild-plugin-sass": "^1.0.1"
+  }
+}

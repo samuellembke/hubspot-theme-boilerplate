@@ -1,0 +1,6 @@
+/hubspot.config.yml
+/.idea/
+/package-lock.json
+/.npmrc
+/node_modules
+/website-theme/dist
