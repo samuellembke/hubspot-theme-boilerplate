@@ -1,6 +1,12 @@
 # Hubspot theme boilerplate
 
 ## Technical Specifications
+ - Esbuild
+ - Nodejs
+ - Typescript
+ - SCSS
+ - node-modules support
+ - Webpack
 ``` 
 This theme uses esbuild to compile scss and typescript code.
 It has a simple and efficient structure and supports node_modules and bundling.
