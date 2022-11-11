@@ -1,0 +1,1 @@
+# Hubspot page templates
